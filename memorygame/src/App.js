@@ -22,7 +22,7 @@ class App extends Component {
       this.setState({score: 0, clickedCards: []})
 
       page.classList.add('shakeWrapper')
-      this.setState({message: 'You picked that already! Start Over.'})
+      this.setState({message: 'You already clicked that!'})
       setTimeout(() => {
         page.classList.remove('shakeWrapper');
       }, 500);
@@ -38,7 +38,7 @@ class App extends Component {
 
       } 
       if (this.state.score === 11) {
-        this.setState({message: 'You Won! Play again?'})
+        this.setState({message: 'You Won!'})
         this.setState({score: 0, clickedCards: [], cards: cards})
         setTimeout(() => {
           this.setState({message: ''})
