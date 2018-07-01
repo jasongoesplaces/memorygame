@@ -4,8 +4,8 @@
 * Each image the user clicks gets them a point, but they lose when they click the same logo twice.
 
 ### Getting Started
-*Make sure you have the latest version of yarn installed.
-*The app can be run by cloning this repo to your machine and running "yarn start"
+* Make sure you have the latest version of yarn installed.
+* The app can be run by cloning this repo to your machine and running "yarn start"
 
 ### Built With
 * [React](https://reactjs.org/)
