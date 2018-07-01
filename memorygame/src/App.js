@@ -84,20 +84,4 @@ class App extends Component {
         <Navbar score={this.state.score} topScore={this.state.topScore}/>
         <div className="container instructions">
           <h5>Click on an image to earn points, <br/>
-            but don't click on any more than once!</h5>
-        </div>
-        <div className="container instructions">{this.state.message}</div>
-        <br />
-        <div className="container row cardWrapper">
-          {this.renderCards(this.state.cards)}
-        </div>
-      </div>
-    );
-  }
-}
-
-
-
-
-
-export default App;
+            but 
